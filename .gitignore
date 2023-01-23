@@ -8,7 +8,6 @@
 .buildlog/
 .history
 .svn/
-migrate_working_dir/
 
 # IntelliJ related
 *.iml
@@ -32,13 +31,32 @@ migrate_working_dir/
 .pub/
 /build/
 
+# Web related
+lib/generated_plugin_registrant.dart
+
 # Symbolication related
 app.*.symbols
 
 # Obfuscation related
 app.*.map.json
 
-# Android Studio will place build artifacts here
-/android/app/debug
-/android/app/profile
-/android/app/release
+*.h linguist-detectable=false
+*.cc linguist-detectable=false
+*.cpp linguist-detectable=false
+*.kt linguist-detectable=false
+*.rb linguist-detectable=false
+*.swift linguist-detectable=false
+*.cmake linguist-detectable=false
+*.gradle linguist-detectable=false
+*.json linguist-detectable=false
+*.plist linguist-detectable=false
+*.html linguist-detectable=false
+*.xml linguist-detectable=false
+*.xib linguist-detectable=false
+*.storyboard linguist-detectable=false
+*.manifest linguist-detectable=false
+*.entitlements linguist-detectable=false
+*..properties linguist-detectable=false
+*.xc* linguist-detectable=false
+Podfile linguist-detectable=false
+CMakeLists.txt linguist-detectable=false
